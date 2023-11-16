@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.digicode{
+    margin-top: 3%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    width: 20vw;
+}
+
+.entree{
+    height: 100px;
+    width: 12vw;
+    margin-top: 5%;
+    border: solid 1px black;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;;
+}
+
+.reponse{
+    height: 7vh;
+    width: 12vw;
+    border: solid 1px black;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;;
+}
+
+.clavier{
+    margin-top: 7%;
+    height: 312px;
+    width: 17vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.touche{
+    margin-left: 7%;
+    height: 5vh;
+    width: 3vw; 
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    order: 0;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.touche:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.effacer{
+    padding: 2%;
+    margin-bottom: 5%;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(75, 75, 212);
+    border: solid 1px black;
+    border-radius: 3px;
+}
